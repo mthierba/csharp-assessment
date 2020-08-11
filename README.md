@@ -1,8 +1,8 @@
 # C# Programming Test
 
-This repository contains a simple .Net Core Xunit test project. It has 13 test cases defined, 12 of which are initially failing. There are five places marked in the C# code files which need to be completed in order to get all tests to pass (look for _TODO_ and/or `NotImplementedException`).
+This repository contains a simple .Net Core Xunit test project. It has 13 test cases defined, 12 of which are initially failing. There are five places marked in the C# code file which need to be completed in order to get all tests to pass (look for _TODO_ and/or `NotImplementedException`).
 
-The project uses some data files (contained in the repo) to preform tests against. It contains references to the `CsvHelper` and `Newtonsoft.Json` packages.
+The project has some data files (csv and json) embedded which the tests run against. It uses the `CsvHelper` and `Newtonsoft.Json` packages.
 
 ## Run Tests using .Net Core SDK
 
